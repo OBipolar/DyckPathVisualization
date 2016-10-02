@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-        <title>Figure examples</title>
+        <title>Dyck Path: A Catalan Number Visualization</title>
 
-        <link rel="stylesheet" href="http://cdn.pydata.org/bokeh-0.7.1.min.css" type="text/css" />
-        <script type="text/javascript" src="http://cdn.pydata.org/bokeh-0.7.1.min.js"></script>
+        <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.css" type="text/css" />
+        <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.js"></script>
         {{ figJS|safe }}
 
 </head>
@@ -23,12 +23,6 @@
 <div class='bokeh'>
     {{ figDiv|safe }}
 </div>
-
-
-<div class='matplotlib'>
-    <img src="static/temp/{{plotPng}}">
-</div>
-
 
 </body>
 </html>
